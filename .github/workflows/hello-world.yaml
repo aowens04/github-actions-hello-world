@@ -30,7 +30,7 @@ jobs:
         run: |
           echo "GitHub Actor: ${{ github.actor }}"
           echo "Repository: ${{ github.repository }}"
-          echo "Branch: ${{ github.ref }}
+          echo "Branch: ${{ github.ref }}"
 
       - name: List Repository Files
         run: ls -la
